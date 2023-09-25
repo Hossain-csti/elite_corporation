@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Section</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./assete/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assete/css/style.css">
+
+    <!-- font-style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- header-logo-start -->
+    <header-section class="logo text-center pt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12"><a href="./home.html">
+                        <img src="./assete/images/logo/logo.png" width="15%" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </header-section>
+    <!-- header-logo-end -->
+
+    <!-- Back To Home Page -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <a href="./home.html" class="text-decoration-none text-primary fs-5">Back To Home Page</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- header-main-start -->
+    <div class="container mt-3 border rounded-0">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="copon">
+                    <h2 class="text-center pt-3 fw-light">অর্ডার করতে নিচের ফর্মটি ফিলাপ করুন</h2>
+                </div>
+                <div class="alert alert-success d-flex justify-content-center" role="alert"
+                    style="line-height: normal;">
+                    <h5 class="fw-light"><i class="fa-solid fa-cart-shopping"></i>
+                        You have selected the“৩0 দিনের কোর্স - (1 Box)”.</h5>
+                </div>
+                <div class="mt-5 p-2 border rounded text-center">
+                    <table class="table">
+                        <thead class="table-dark">
+                            <tr>
+                                <th scope="col">Product Img</th>
+                                <th scope="col">Product</th>
+                                <th scope="col">Package</th>
+                                <th scope="col">Price</th>
+                                <th scope="col">QTY</th>
+                                <th scope="col">Subtotal (TK)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th class="fw-light">
+                                    <img src="./assete/images/product/fat_juice.jpeg" class="img-thumbnail"
+                                        style="width: 88px; height: 80px;" alt=""></th=>
+                                <th class="fw-light pt-4">ZERO_FAT_JUICE</th>
+                                <th class="fw-light pt-4">৩০ দিনের কোর্স - (1 Box)</th>
+                                <th class="fw-light pt-4">1550</th>
+                                <th class="fw-light pt-4">Handle</th>
+                                <th class="fw-light pt-4">1550</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <h4>Billing Details:</h4>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label text-start fs-6">Name:</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label text-start fs-6">Phone:</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Phone No">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Address:</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="You Address"
+                        rows="3"></textarea>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h4>Your Order:</h4>
+                <table class="table table-hover justify-content-evenly border">
+                    <thead style="background-color: #EDF7FF;">
+                        <tr>
+                            <th scope="col">Package</th>
+                            <th scope="col" class="text-center">Subtotal (TK)</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table-group-divider">
+                        <tr>
+                            <td>৩০ দিনের কোর্স - (1 Box)</td>
+                            <td class="text-center">1550</td>
+                        </tr>
+                        <tr>
+                            <td>Shipping</td>
+                            <td class="text-center">120</td>
+                        </tr>
+                        <tr>
+                            <td>Total</td>
+                            <td class="text-center fw-bold">1670</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button type="button" class="btn btn-primary rounded-1">Place Order</button>
+            </div>
+        </div>
+    </div>
+    <!-- header-main-end -->
+
+
+
+
+
+
+
+
+    <!-- footer-start -->
+    <section class="footer" style="background-color: #212121;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="text-center fw-light pt-4 py-4" style="color: #727272;">Copyright ©2023 Elite Corporation
+                        BD Website All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer-end -->
+    <!-- js -->
+    <script src="./assete/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
